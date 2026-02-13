@@ -29,3 +29,7 @@ Ngrok.
 
 ### Forgot Password
 ![Forgot Password](screenshots/forgot_password.png)
+
+## Public URL
+https://unawake-cirrosely-jaimee.ngrok-free.dev
+
