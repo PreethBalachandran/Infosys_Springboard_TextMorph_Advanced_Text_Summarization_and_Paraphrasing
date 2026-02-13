@@ -1,5 +1,5 @@
-#**Project Title**#
-TextMorph – Advanced Text Summarization and Paraphrasing
+#Project Title
+#TextMorph – Advanced Text Summarization and Paraphrasing
 
 # Milestone 1 – User Authentication System
 ## Description
