@@ -27,7 +27,7 @@
 ![Login Page](screenshots/login.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/readability.png)
 
 ### Forgot Password
 ![Forgot Password](screenshots/forgot_password.png)
