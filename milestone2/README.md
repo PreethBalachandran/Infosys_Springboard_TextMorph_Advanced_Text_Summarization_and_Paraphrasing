@@ -20,4 +20,15 @@
 - Textstat
 
 ## Screenshots
-(Add screenshots here)
+### Signup Page
+![Signup Page](screenshots/signup.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Forgot Password
+![Forgot Password](screenshots/forgot_password.png)
+
