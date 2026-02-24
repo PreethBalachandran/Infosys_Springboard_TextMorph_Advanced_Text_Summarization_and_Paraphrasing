@@ -1,1 +1,11 @@
-
+Streamlit
+PostgreSQL
+JWT
+bcrypt
+ngrok
+nltk
+textstat
+plotly
+PyPDF2
+option menu
+dotenv
