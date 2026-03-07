@@ -174,6 +174,24 @@ Frontend
 * Plotly
 * Custom CSS styling
 
+# Screenshots
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+
+### Readability Dashboard
+![Readability](screenshots/readability.png)
+
+### Summarizer
+![Summarizer](screenshots/summarize.png)
+
+### Augmnet
+![Augmnet](screenshots/hugmnet.png)
+
+### History
+![History](screenshots/hashboard.png)
+
 # Conclusion
 
 This project demonstrates the integration of **secure authentication systems with advanced natural language processing techniques**.
