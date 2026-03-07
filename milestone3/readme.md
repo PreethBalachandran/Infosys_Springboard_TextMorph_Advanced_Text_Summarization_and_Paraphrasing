@@ -187,10 +187,10 @@ Frontend
 ![Summarizer](screenshots/summarize.png)
 
 ### Augmnet
-![Augmnet](screenshots/hugmnet.png)
+![Augmnet](screenshots/augmnet.png)
 
 ### History
-![History](screenshots/hashboard.png)
+![History](screenshots/history.png)
 
 # Conclusion
 
