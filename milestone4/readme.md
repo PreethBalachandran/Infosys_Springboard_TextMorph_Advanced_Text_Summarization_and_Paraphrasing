@@ -1,5 +1,5 @@
 
-# AI Text Processing Platform – Milestone 4
+# Milestone 4
 
 ## Project Overview
 
