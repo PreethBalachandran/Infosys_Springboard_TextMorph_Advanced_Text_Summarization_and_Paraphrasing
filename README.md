@@ -1,8 +1,14 @@
 # Infosys_Springboard_TextMorph_Advanced_Text_Summarization_and_Paraphrasing
 
+---
+
 # 🧠 TextMorph
-##AI-Powered Content Simplification, Summarization & Paraphrasing Suite
-Transforming complex content into clear, concise, and accessible communication.
+
+AI-Powered Content Simplification, Summarization & Paraphrasing Suite
+
+🚀 Transforming complex content into clear, concise, and accessible communication using advanced Artificial Intelligence.
+
+🔍 Designed to bridge the gap between complex information and user understanding by leveraging powerful NLP models, real-time analytics, and a secure, user-friendly interface.
 
 ---
 
@@ -10,9 +16,9 @@ Transforming complex content into clear, concise, and accessible communication.
 
 | Category          | Link                |
 | ----------------- | ------------------- |
-| 📽️ Demo Video     | Yes       |
+| 📽️ Demo Video    | Yes                 |
 | 🧩 Source Code    | This Repository     |
-| 🐳 Docker Support | Yes            |
+| 🐳 Docker Support | Yes                 |
 | 🧠 AI Models      | BART · PEGASUS · T5 |
 
 ---
@@ -20,43 +26,70 @@ Transforming complex content into clear, concise, and accessible communication.
 ## 📌 Table of Contents
 
 * About the Project
-* Problem Statement
+* Problem Statement & Motivation
 * Key Features
 * Architecture
 * Tech Stack
 * Models Used
-* Installation
-* Usage
-* Admin Dashboard
-* Datasets
+* Project Structure
+* Installation & Setup
+* Usage Guide
+* Admin Controls
+* Datasets & Evaluation
 * Screenshots
+* Roadmap
+* Team
 * License
 
 ---
 
 ## 📖 About the Project
 
-This project is an AI-powered platform designed to:
+TextMorph is a comprehensive AI-driven text intelligence platform designed to bridge the gap between complex information and user understanding.
 
-* Simplify complex text
-* Generate summaries
-* Paraphrase content
-* Analyze readability
+In today’s digital world, users frequently encounter:
 
-It integrates secure authentication, NLP models, and analytics dashboards into a single system.
+* lengthy documents
+* complex academic content
+* technical articles
+* dense reports
+
+👉 TextMorph solves this problem using advanced NLP models to:
+
+* simplify difficult text
+* generate concise summaries
+* paraphrase content intelligently
+* analyze readability levels
 
 ---
 
-## 🎯 Problem Statement
+## 🌟 What Makes TextMorph Unique?
 
-Understanding long and complex content is difficult and time-consuming.
+* 🔐 Secure authentication with JWT & OTP
+* 🧠 Transformer-based AI models
+* 📊 Readability analytics dashboard
+* 📈 Interactive visualizations
+* 🛠 Admin monitoring system
+* 📂 File upload support (TXT, PDF)
 
-This system helps by:
+---
 
-* Improving readability
-* Reducing text length
-* Rewriting content clearly
-* Assisting faster learning
+## 🎯 Problem Statement & Motivation
+
+Understanding complex content is difficult and time-consuming.
+
+Manual simplification requires:
+
+* time
+* effort
+* expertise
+
+This system uses AI to:
+
+* improve readability
+* shorten long content
+* rewrite text clearly
+* enhance learning efficiency
 
 ---
 
@@ -64,76 +97,162 @@ This system helps by:
 
 ### 👤 User Features
 
-* 🔐 JWT Authentication with OTP reset
-* 📊 Readability Analyzer (Flesch, SMOG, Fog, Coleman)
-* ✂️ AI Summarization
-* 🔁 Paraphrasing Engine
-* 📂 PDF & Text Upload
-* 📈 Interactive Charts
-* 🧑 Profile Management (email, password, avatar)
-* 💬 Chat Interface
-* 🕘 History Tracking
+| Feature                      | Description                     |
+| ---------------------------- | ------------------------------- |
+| 🔐 Secure JWT Authentication | Login, signup, OTP reset        |
+| 📊 Readability Analyzer      | Flesch, SMOG, Fog, Coleman-Liau |
+| ✂️ Summarization             | AI-based text summarization     |
+| 🔁 Paraphrasing              | Rewrite content intelligently   |
+| 📂 File Upload               | TXT & PDF support               |
+| 📈 Visualization             | Interactive charts              |
+| 🧑 Profile Management        | Update email, password, avatar  |
+| 🕘 History Log               | Track previous activity         |
+
+---
+
+### 👤 User Personalization (Milestone Enhancement)
+
+* Update email securely
+* Change password with validation
+* Upload profile avatar (DP)
+* Personalized dashboard experience
 
 ---
 
 ### 🛠 Admin Features
 
-* 👥 User Management (delete, promote, lock)
-* 📊 Analytics Dashboard
-* 📈 Model & Feature Usage Tracking
-* 🌐 Language Usage Analysis
-* ☁️ Feedback Analysis (WordCloud)
-* 📥 Data Export (logs, feedback)
-* 🔍 Activity Monitoring
+* User management (delete, promote, lock)
+* Real-time analytics dashboard
+* Model usage tracking
+* Feature usage analysis
+* Feedback analysis using WordCloud
+* Data export (logs, feedback)
+
+---
+
+### 📊 Advanced Admin Analytics
+
+* Real-time active user monitoring
+* Model usage tracking (BART, PEGASUS, T5)
+* Feature usage insights
+* Language usage analysis
+* Feedback visualization
+* WordCloud analysis
+
+---
+
+### 🧠 Advanced AI Features (Milestone Enhancements)
+
+* 🧾 Advanced Summarizer
+
+  * Context-aware summarization
+  * Supports long text
+
+* 🔁 Paraphrase Engine
+
+  * Meaning-preserving rewriting
+  * Multiple styles
+
+* 🔄 Dataset Augmentation
+
+  * Synonym replacement
+  * Sentence restructuring
+
+* ⚙️ Model Fine-Tuning
+
+  * Improved accuracy
+  * Custom dataset training
 
 ---
 
 ## 🧩 Architecture
 
-```text
+```
 User → Streamlit UI → Backend → AI Models
                      ↓
-                 PostgreSQL
+                 PostgreSQL DB
 ```
 
 ---
 
 ## 🛠 Tech Stack
 
-* Frontend: Streamlit
-* Backend: Python
-* Database: PostgreSQL
-* AI Models: Transformers (BART, PEGASUS, T5)
-* Security: JWT, bcrypt
-* Visualization: Plotly
-* File Handling: PyPDF2
+| Layer         | Technology   |
+| ------------- | ------------ |
+| Frontend      | Streamlit    |
+| Backend       | Python       |
+| Database      | PostgreSQL   |
+| AI Models     | Transformers |
+| Security      | JWT, bcrypt  |
+| Visualization | Plotly       |
 
 ---
 
 ## 🤖 Models Used
 
-* BART – Summarization
-* PEGASUS – Advanced summarization
-* T5 – Paraphrasing
-* TextStat / NLTK – Readability analysis
+### 🔹 BART (Facebook AI)
+
+* Used for summarization
+* Context-aware generation
+* High-quality outputs
 
 ---
 
-## ⚙️ Installation
+### 🔹 PEGASUS (Google)
 
-```bash
+* Designed for summarization
+* Works well for long content
+
+---
+
+### 🔹 FLAN-T5 (Google)
+
+* Used for paraphrasing
+* Flexible text generation
+
+---
+
+### 🔹 Readability Metrics
+
+* Flesch Reading Ease
+* SMOG Index
+* Gunning Fog
+* Coleman-Liau
+
+---
+
+### ⚡ Model Optimization
+
+* **4-bit Quantization** → reduces memory usage and improves speed
+* **8-bit Quantization** → balances performance and accuracy
+
+---
+
+## 📂 Project Structure
+
+```
+Infosys_Springboard_TextMorph_Advanced_Text_Summarization_and_Paraphrasing
+│
+├── Textmorph_Project.ipynb
+├── requirements.txt
+├── README.md
+└── screenshots/
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+```
 git clone https://github.com/PreethBalachandran/Infosys_Springboard_TextMorph_Advanced_Text_Summarization_and_Paraphrasing
-cd project
 pip install -r requirements.txt
 ```
 
 ---
 
-## 🔐 Environment Setup
+## 🔐 Environment Configuration
 
-Create `.env` file:
-
-```env
+```
 JWT_SECRET=your_secret_key
 EMAIL_ADDRESS=your_email
 EMAIL_PASSWORD=your_password
@@ -147,46 +266,53 @@ DB_PORT=5432
 
 ---
 
-## ▶️ Run the Application
+## ▶️ Run Application
 
-```bash
+```
 streamlit run app.py
 ```
 
 ---
 
-## 📝 Usage
+## 📝 Usage Guide
 
-1. Login/Register
-2. Enter or upload text
+1. Register/Login
+2. Input or upload text
 3. Choose summarization or paraphrasing
-4. View readability results
-5. Analyze and download output
+4. Analyze readability
+5. View results
+6. Save or download output
 
 ---
 
-## 🛡 Admin Dashboard
+## 🛡 Admin Controls
 
-Admin panel provides:
-
-* User control
-* System analytics
-* Feature usage tracking
-* Feedback insights
-* Data export
+* Manage users
+* Monitor system usage
+* Analyze feedback
+* Track model usage
+* Export data
 
 ---
 
-## 📊 Datasets
+## 📊 Datasets & Evaluation
 
-* Custom dataset for summarization
-* Augmented dataset for training
+Datasets used:
+
+* Custom dataset
+* Augmented dataset
+
+### 🔄 Dataset Augmentation Details
+
+* Synonym replacement
+* Sentence restructuring
+* Word variation
 
 Evaluation Metrics:
 
-* ROUGE
-* BLEU
-* Readability improvement
+* ROUGE Score
+* BLEU Score
+* Readability Improvement
 
 ---
 
@@ -194,20 +320,95 @@ Evaluation Metrics:
 
 * Login Page
 * Dashboard
-* Readability Analyzer
+* Readability Graph
 * Summarization Output
 * Admin Dashboard
 * WordCloud
 
 ---
-👥 Team
-Name	Role	Responsibility
-Kona Ravi Kumar	Frontend Developer	UI design, Streamlit interface, user experience
-Preetha B	Backend Developer	Authentication system, database integration, API logic
-Manikanta Tripurani	Documentation	README, reports, project documentation
-Kummari Sampath	ML Engineer	Model integration, NLP processing, training & evaluation
+
+## 🚀 Roadmap
+
+* Multi-language support
+* UI improvements
+* Model optimization
+* Cloud deployment
+
+---
+
+## 👥 Team
+
+| Name                | Role               | Responsibilities                                                     |
+| ------------------- | ------------------ | -------------------------------------------------------------------- |
+| Kona Ravi Kumar     | Frontend Developer | Designed the UI, built Streamlit interface, improved user experience |
+| Preetha B           | Backend Developer  | Implemented authentication, database integration, API logic          |
+| Manikanta Tripurani | Documentation      | Prepared README, reports, and project documentation                  |
+| Kummari Sampath     | ML Engineer        | Integrated AI models, handled NLP processing, model optimization     |
+| Prathamesh          | Contributor        | Assisted in development, testing, and project support                |
+
+---
+
+## ✅ Milestone Completion Status
+
+### ✔ Milestone 1
+
+* User registration (signup) and login system
+* Secure password hashing using bcrypt
+* JWT-based authentication
+* Forgot password with OTP verification
+* Basic Streamlit UI
+* Deployment using ngrok
+
+---
+
+### ✔ Milestone 2
+
+* OTP Authentication improved
+* Readability Dashboard implemented
+* UI/UX enhancements
+
+---
+
+### ✔ Milestone 3
+
+* Advanced Summarizer
+* Paraphrasing Engine
+* Dataset Augmentation
+* Model Fine-Tuning
+
+---
+
+### ✔ Milestone 4
+
+* Admin Dashboard with analytics
+* User personalization features
+* Feedback analysis (WordCloud)
+* Data export functionality
+
+---
+
+## 🏁 Conclusion
+
+TextMorph is a complete AI-powered text processing platform that combines security, intelligence, and usability in a single system.
+
+The project successfully integrates authentication, OTP verification, readability analysis, summarization, paraphrasing, and admin analytics into one unified application.
+
+Each milestone contributed to the system:
+
+* Milestone 1 → authentication and setup
+* Milestone 2 → readability and UI improvements
+* Milestone 3 → AI model integration
+* Milestone 4 → analytics and personalization
+
+Overall, this project demonstrates how modern AI models can simplify complex content and improve user understanding.
+
+It can be further enhanced with advanced models, multi-language support, and cloud deployment.
+
+---
 
 ## 📜 License
 
 MIT License
 Free to use and modify with proper credit.
+
+---
