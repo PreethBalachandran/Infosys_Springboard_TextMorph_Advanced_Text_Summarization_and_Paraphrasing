@@ -187,28 +187,46 @@ User → Streamlit UI → Backend → AI Models
 | Visualization | Plotly       |
 
 ---
-
 ## 🤖 Models Used
 
 ### 🔹 BART (Facebook AI)
 
-* Used for summarization
-* Context-aware generation
-* High-quality outputs
+* Developed by Facebook AI Research
+* Model Variant: **BART-base (~139M parameters)** / **BART-large (~406M parameters)**
+* Used for **text summarization**
+* Context-aware encoder-decoder architecture
+* Produces high-quality and coherent summaries
 
 ---
 
 ### 🔹 PEGASUS (Google)
 
-* Designed for summarization
-* Works well for long content
+* Developed by Google Research
+* Model Variant: **PEGASUS-large (~568M parameters)**
+* Designed specifically for **abstractive summarization**
+* Performs well on long documents
+* Generates human-like summaries
 
 ---
 
 ### 🔹 FLAN-T5 (Google)
 
-* Used for paraphrasing
-* Flexible text generation
+* Developed by Google
+* Model Variants:
+
+  * **FLAN-T5-base (~250M parameters)**
+  * **FLAN-T5-large (~780M parameters)**
+  * **FLAN-T5-XL (~3B parameters)**
+* Used for **paraphrasing and text transformation**
+* Supports multiple NLP tasks using text-to-text format
+
+---
+
+### 🔹 Facebook Model
+
+* Facebook AI models like **BART** are used for high-quality generation tasks
+* These models are optimized for **context understanding and summarization**
+* Provide better performance compared to traditional NLP methods
 
 ---
 
@@ -216,17 +234,25 @@ User → Streamlit UI → Backend → AI Models
 
 * Flesch Reading Ease
 * SMOG Index
-* Gunning Fog
-* Coleman-Liau
+* Gunning Fog Index
+* Coleman-Liau Index
+
+Used to evaluate **text complexity and readability level**.
 
 ---
 
 ### ⚡ Model Optimization
 
-* **4-bit Quantization** → reduces memory usage and improves speed
-* **8-bit Quantization** → balances performance and accuracy
+* **4-bit Quantization**
 
----
+  * Reduces memory usage significantly
+  * Enables faster inference
+
+* **8-bit Quantization**
+
+  * Balances performance and accuracy
+  * Suitable for efficient deployment
+
 
 ## 📂 Project Structure
 
