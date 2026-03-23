@@ -345,12 +345,27 @@ Evaluation Metrics:
 ## 📸 Screenshots
 
 * Login Page
-* Dashboard
-* Readability Graph
+* Readability Dashboard
 * Summarization Output
+* Augment Dashboard
 * Admin Dashboard
 * WordCloud
+  
+### Login Page
+![Login Page](screenshots/login.png)
 
+
+### Readability Dashboard
+![Readability](screenshots/readability.png)
+
+### Summarizer
+![Summarizer](screenshots/summarize.png)
+
+### Augmnet
+![Augmnet](screenshots/augmnet.png)
+
+### Worldcloud
+![Worldcloud](screenshots/wordcloud.png)
 ---
 
 ## 🚀 Roadmap
