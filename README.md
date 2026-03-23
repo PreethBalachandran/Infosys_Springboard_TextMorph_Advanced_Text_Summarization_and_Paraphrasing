@@ -364,8 +364,8 @@ Evaluation Metrics:
 ### Augmnet
 ![Augmnet](screenshots/augmnet.png)
 
-### Worldcloud
-![Worldcloud](screenshots/wordcloud.png)
+### Wordcloud
+![Wordcloud](screenshots/wordcloud.png)
 
 ---
 
