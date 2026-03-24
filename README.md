@@ -359,10 +359,10 @@ Evaluation Metrics:
 ![Readability](screenshots/readability.png)
 
 ### Summarizer
-![Summarizer](screenshots/summarize.png)
+![Summarizer](screenshots/summarizer.png)
 
 ### Augmnet
-![Augmnet](screenshots/augmnet.png)
+![Augmnet](screenshots/augment.png)
 
 ### Wordcloud
 ![Wordcloud](screenshots/wordcloud.png)
