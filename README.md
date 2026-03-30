@@ -380,13 +380,13 @@ Evaluation Metrics:
 
 ## 👥 Team
 
-| Name                | Role               | Responsibilities                                                     |
-| ------------------- | ------------------ | -------------------------------------------------------------------- |
-| Kona Ravi Kumar     | Frontend Developer | Designed the UI, built Streamlit interface, improved user experience |
-| Preetha B           | Backend Developer  | Implemented authentication, database integration, API logic          |
-| Manikanta Tripurani | Documentation      | Prepared README, reports, and project documentation                  |
-| Kummari Sampath     | ML Engineer        | Integrated AI models, handled NLP processing, model optimization     |
-| Prathamesh          | Contributor        | Assisted in development, testing, and project support                |
+| Name                    | Role               | Responsibilities                                                     |
+| ----------------------- | ------------------ | -------------------------------------------------------------------- |
+| Kona Ravi Kumar         | Frontend Developer | Designed the UI, built Streamlit interface, improved user experience |
+| Preetha B               | Backend Developer  | Implemented authentication, database integration, API logic          |
+| Manikanta Tripurani     | Documentation      | Prepared README, reports, and project documentation                  |
+| Kummari Sampath         | ML Engineer        | Integrated AI models, handled NLP processing, model optimization     |
+| Satavisha Roy Choudhury | Contributor        | Assisted in development, testing, and project support                |
 
 ---
 
