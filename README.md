@@ -222,11 +222,11 @@ User → Streamlit UI → Backend → AI Models
 
 ---
 
-### 🔹 Facebook Model
-
-* Facebook AI models like **BART** are used for high-quality generation tasks
-* These models are optimized for **context understanding and summarization**
-* Provide better performance compared to traditional NLP methods
+### 🔹 NLLB (Meta / Facebook AI)
+Developed by Meta AI (Facebook)
+Used for multilingual translation
+Supports multiple languages for cross-language text processing
+Enhances accessibility and global usability of the system
 
 ---
 
