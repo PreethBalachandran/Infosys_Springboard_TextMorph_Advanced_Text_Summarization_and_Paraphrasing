@@ -352,20 +352,20 @@ Evaluation Metrics:
 * WordCloud
   
 ### Login Page
-![Login Page](screenshots/login.png)
+![Login Page](screenshots/login.jpeg)
 
 
 ### Readability Dashboard
-![Readability](screenshots/readability.png)
+![Readability](screenshots/readability.jpeg)
 
 ### Summarizer
-![Summarizer](screenshots/summarizer.png)
+![Summarizer](screenshots/summarizer.jpeg)
 
 ### Augmnet
-![Augmnet](screenshots/augment.png)
+![Augmnet](screenshots/augment.jpeg)
 
 ### Wordcloud
-![Wordcloud](screenshots/wordcloud.png)
+![Wordcloud](screenshots/wordcloud.jpeg)
 
 ---
 
